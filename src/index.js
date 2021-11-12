@@ -9,7 +9,7 @@ import './index.css';
      </button>
    );
  }
-  
+
   class Board extends React.Component {
     renderSquare(i) {
       return (
@@ -23,7 +23,7 @@ import './index.css';
   
     render() {
       return (
-        <div>
+        <div className="contenedor">
           <div className="board-row">
             {this.renderSquare(0)}
             {this.renderSquare(1)}

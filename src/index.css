@@ -23,6 +23,14 @@ body {
     padding: 5px;
     margin: 0px;
   }
+
+  .game-info button{
+    color: aliceblue;
+    background-color: #7e05ff;
+    border: 1px solid #09080a;
+    border-radius: 5px;
+  }
+
   .game-info p {
     font-size: 25px;
     color: aliceblue;
@@ -59,4 +67,8 @@ body {
   .game {
     display: flex;
     flex-direction: row;
+  }
+  h1 {
+    color: aliceblue;
+    font-size: 40px;
   }
