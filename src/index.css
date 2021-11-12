@@ -1,4 +1,5 @@
 body {
+    background-color: #221b96;
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
   }
@@ -16,20 +17,24 @@ body {
   .status {
     margin-bottom: 10px;
   }
+  .status p {
+    font-size: 30px;
+    color: aliceblue;
+  }
   
   .square {
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 68px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 68px;
   }
   
   .square:focus {
@@ -41,6 +46,9 @@ body {
   }
   
   .game {
+    position: relative;
+    top: 50%;
+    left: 40%;
     display: flex;
     flex-direction: row;
   }
