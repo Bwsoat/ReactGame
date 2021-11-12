@@ -1,7 +1,9 @@
 body {
+    width: 1000px;
     background-color: #221b96;
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    margin-top: 100px;
+    margin-left: 40%;
   }
   
   ol, ul {
@@ -17,9 +19,18 @@ body {
   .status {
     margin-bottom: 10px;
   }
-  .status p {
-    font-size: 30px;
+  .game-info {
+    padding: 5px;
+    margin: 0px;
+  }
+  .game-info p {
+    font-size: 25px;
     color: aliceblue;
+  }
+
+  .game-info li {
+    list-style: none;
+    margin-bottom: 5px;
   }
   
   .square {
@@ -46,14 +57,6 @@ body {
   }
   
   .game {
-    position: relative;
-    top: 50%;
-    left: 40%;
     display: flex;
     flex-direction: row;
   }
-  
-  .game-info {
-    margin-left: 20px;
-  }
-  
